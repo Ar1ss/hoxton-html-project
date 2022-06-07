@@ -1,0 +1,26 @@
+.first-section{
+    grid-area: first-section;
+    display: grid;
+    background-image: url(/Images/interior.jpg);   
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:bottom;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.664);
+}
+.first-section-box{
+    width: 40%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.543);
+    display: grid;
+    place-content: end;
+    align-items: end;
+    padding: 3rem;
+    color: #c2c2c2;
+    font-size: 50px;
+    padding-left: 13rem;
+    font-family: sans-serif;
+}
+.first-section-box h2{
+    font-weight: 100;
+}

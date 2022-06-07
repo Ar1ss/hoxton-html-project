@@ -4,26 +4,25 @@ margin: 0%;
 box-sizing: border-box;
 }
 body{
-    height: 100vh;
+    height: 120vh;
     width: 100%;
     display: grid;
     grid-template:
     'header header header' auto
     'first-section  first-section  first-section ' 1fr
-    'second-section  second-section  second-section'1fr
+    'separator     separator     separator'    1fr
+    'second-section  second-section  second-section' 1fr
     'third-section     third-section   third-section' 1fr
     'fourth-section      fourth-section    fourth-section'1fr
     'footer         footer          footer'auto/
-    auto          1fr                 auto
+    auto         auto                auto
 }
-.first-section{
-    grid-area: first-section;
-    background-color: rgba(0, 0, 255, 0.258);
+.separator{
+    grid-area: separator;
+    background-color: rgb(255, 255, 255);
 }
-.second-section{
-    grid-area: second-section;
-    background-color: rgba(165, 42, 42, 0.459);
-}
+
+
 .third-section{
     grid-area: third-section;
     background-color: rgba(127, 255, 212, 0.757);

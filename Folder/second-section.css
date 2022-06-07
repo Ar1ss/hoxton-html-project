@@ -1,0 +1,49 @@
+.second-section{
+    grid-area: second-section;
+    background-color: rgba(165, 42, 42, 0.459);
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
+.second-section__first-colum{
+    height: 400px;
+    width: 600px;
+    background-color: black;
+    display: grid;
+    color:#c2c2c2;
+    text-align: start;
+    padding-left: 12rem;
+    padding-right: 3rem;
+    place-content: center;
+    font-family: sans-serif;
+    gap: 2rem;
+}
+.second-section__first-colum h2{
+    font-size: 40px;
+    
+}
+.second-section__first-colum-image{
+    background-image: url(/Images/kitchen-second.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.second-section__first-colum2{
+    background-color: rgb(70, 70, 70);
+    display: grid;
+    color:#c2c2c2;
+    text-align:start;
+    place-content:center;
+    font-family: sans-serif;
+    height: 400px;
+    width: 600px;
+    padding-right: 4rem;
+    padding-left: 4rem;
+}
+.second-section__first-colum2 h2{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+.second-section__first-colum2 p{
+    color:rgb(255, 255, 255) ;
+    font-size:30px;
+}
