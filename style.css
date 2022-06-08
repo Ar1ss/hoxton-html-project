@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: black;
+  background-color: #ffffffc1;
   height: 120vh;
   width: 100%;
   display: grid;
