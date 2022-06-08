@@ -1,37 +1,29 @@
-*{
-padding: 0%;
-margin: 0%;
-box-sizing: border-box;
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
 }
-body{
-    height: 120vh;
-    width: 100%;
-    display: grid;
-    grid-template:
-    'header header header' auto
-    'first-section  first-section  first-section ' 1fr
-    'separator     separator     separator'    1fr
-    'second-section  second-section  second-section' 1fr
-    'third-section     third-section   third-section' 1fr
-    'fourth-section      fourth-section    fourth-section'1fr
-    'footer         footer          footer'auto/
-    auto         auto                auto
-}
-.separator{
-    grid-area: separator;
-    background-color: rgb(255, 255, 255);
+body {
+  background-color: black;
+  height: 120vh;
+  width: 100%;
+  display: grid;
+  grid-template:
+    "header header header" auto
+    "first-section  first-section  first-section " 1fr
+    "separator     separator     separator" 1fr
+    "second-section  second-section  second-section" 1fr
+    "third-section     third-section   third-section" 1fr
+    "fourth-section      fourth-section    fourth-section" 1fr
+    "footer         footer          footer" auto/
+    auto auto auto;
 }
 
-
-.third-section{
-    grid-area: third-section;
-    background-color: rgba(127, 255, 212, 0.757);
+.fourth-section {
+  grid-area: fourth-section;
+  background-color: rgba(128, 255, 0, 0.318);
 }
-.fourth-section{
-    grid-area: fourth-section;
-    background-color: rgba(128, 255, 0, 0.318);
-}
-.footer{
-    grid-area: footer;
-    background-color: rgba(0, 0, 0, 0.222);
+.footer {
+  grid-area: footer;
+  background-color: rgba(0, 0, 0, 0.222);
 }

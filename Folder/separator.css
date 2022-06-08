@@ -1,0 +1,31 @@
+
+.separator{
+    grid-area: separator;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    background-image: url(/Images/baltas.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    place-items:center;
+}
+.separator-box{
+    height: 100%;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.404);
+    display: grid;
+    place-content: end;
+    padding: 2rem;
+    padding-bottom: 7rem;
+    padding-left: 6rem;
+}
+.separator-box h2{
+    
+    font-size: 45px;
+    font-family: sans-serif;
+    color: white;
+    font-weight:100 ;
+
+}
+

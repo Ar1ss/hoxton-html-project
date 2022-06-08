@@ -1,0 +1,59 @@
+.third-section {
+  grid-area: third-section;
+  background-color: rgba(255, 255, 255, 0.757);
+  display: grid;
+  grid-template:
+    "third-section-first-column  third-section-second-column "
+    "third-section-first-column   third-section-second-column" /
+    auto auto;
+  height: 90vh;
+  gap: 0.5rem;
+}
+.third-section-first-column {
+  grid-area: third-section-first-column;
+  background-image: url(/Images/bedroom.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: grid;
+  background-size: cover;
+  place-content: end;
+}
+.third-section-second-column {
+  grid-area: third-section-second-column;
+  background-image: url(/Images/sofa.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  align-items: end;
+  display: grid;
+}
+.third-section-first-column__box {
+  width: 400px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.708);
+  display: grid;
+  place-content: end;
+  padding: 2rem;
+}
+.third-section-first-column__box h2 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 30px;
+  padding-left: 2rem;
+}
+.third-section-second-column__box {
+  width: 400px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.708);
+  padding: 2rem;
+  display: grid;
+  place-content: end;
+}
+.third-section-second-column__box h2 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 30px;
+  padding-right: 2rem;
+  text-align: end;
+
+}
