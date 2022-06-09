@@ -23,11 +23,5 @@ body::-webkit-scrollbar {
     display: none;
   }
 
-.fourth-section {
-  grid-area: fourth-section;
-  background-color: rgba(128, 255, 0, 0.318);
-}
-.footer {
-  grid-area: footer;
-  background-color: rgba(0, 0, 0, 0.222);
-}
+
+

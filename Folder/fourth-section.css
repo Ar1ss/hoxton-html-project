@@ -1,4 +1,7 @@
 .fourth-section {
-    grid-area: fourth-section;
-    background-color: #ffffffc1;
-  }
+  grid-area: fourth-section;
+  background-color: #000000;
+}
+.fourth-section__video {
+  width: 100%;
+}
