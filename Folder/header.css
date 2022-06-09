@@ -18,6 +18,31 @@
   text-decoration: none;
 }
 
+
+.header-item {
+  display: inline-block;
+  position: relative;
+  color: #ffffff;
+  padding: 0.4rem;
+}
+
+.header-item:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  transform-origin: bottom right;
+  transition: transform 0.5s ease-out;
+}
+
+.header-item:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
 .header-navigation-bar ul {
   display: grid;
   grid-auto-flow: column;
